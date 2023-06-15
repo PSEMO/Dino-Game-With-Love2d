@@ -1,0 +1,60 @@
+
+
+--Credits--
+Thanks "Zedzee#9393" for 'Player Tank', 'Artillery enemy' and 'Jeep enemy.'
+Engine: https://love2d.org/
+Collision Detection System: https://github.com/vrld/HC
+For HTML5: https://schellingb.github.io/LoveWebBuilder/package
+SFX: https://gamesupply.itch.io/300-futuristic-sfx-with-names
+music: https://gamesupply.itch.io/ultimate-space-game-mega-asset-package
+
+
+Arkaplan görseli
+Oyun bitmiyor
+daireler var
+
+
+can artınca yazı?
+düşman can yüzdeleri?
+patlama efekti?
+
+
+
+--HowTo--
+------------------------------------------------------
+Rotation
+Shape:setRotation(angle[, cx, cy])
+1st angle in radian
+2nd rotation center
+or
+rect:rotate(23)
+------------------------------------------------------
+Move
+Shape:moveTo(x, y)
+------------------------------------------------------
+Scale
+Shape:scale(s)
+------------------------------------------------------
+Mode
+Shape:draw(mode)
+'fill', 'line'
+------------------------------------------------------
+Detect
+ShapeOne:collidesWith(ShapeTwo)
+------------------------------------------------------
+Create Circle
+classCircleShape(x, y, r)
+HC.circle(x, y, r)
+------------------------------------------------------
+Create Polygon
+newPolygonShape(ax, ay, bx, by, cx, cy...)
+HC.polygon(ax, ay, bx, by, cx, cy...)
+------------------------------------------------------
+Create Rectangle
+rect = HC.rectangle(ax, ay, bx, by)
+------------------------------------------------------
+
+local EnemyNormalColliders = {}
+local ArtilleryEnemyColliders = {}
+local FastEnemyColliders = {}
+PlayerHullCollider
